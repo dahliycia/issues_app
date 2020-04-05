@@ -1,0 +1,26 @@
+{
+  "name": "issues_app_api",
+  "version": "0.0.1",
+  "description": "Issues App API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
+  "author": "Olga Borgula",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^7.4.2",
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/joi": "^15.0.2",
+    "vision": "^5.4.4",
+    "@hapi/inert": "^5.0.1",
+    "core-js": "^3.6.4",
+    "hapi-pino": "^5.4.1",
+    "hapi-swagger": "^9.4.2",
+    "nodemon": "^2.0.2"
+  },
+  "installConfig": {
+    "pnp": true
+  }
+}
