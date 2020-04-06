@@ -1,6 +1,6 @@
 {
   "name": "issues_app_api",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Issues App API",
   "main": "index.js",
   "scripts": {

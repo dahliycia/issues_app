@@ -1,5 +1,4 @@
 const Hapi = require('@hapi/hapi');
-const Boom = require('@hapi/boom');
 const Pino = require('hapi-pino');
 const Inert = require('@hapi/inert');
 const Vision = require('vision');
