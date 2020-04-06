@@ -15,6 +15,6 @@ RUN    npm config set registry http://registry.npmjs.org/;
 
 RUN    npm install;
 
-EXPOSE ${API_PORT} || 8001
+EXPOSE 8001
 
 CMD    node server.js;
