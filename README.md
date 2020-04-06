@@ -1,8 +1,8 @@
 # Cracker - Issues Tracker API
 
-##ROUTES
+## ROUTES
 
-###POST /issues/add
+### POST /issues/add
 
 Add a new issue. Payload should have a form of: '
 Payload:
@@ -20,7 +20,7 @@ Example response:
 ```
 
 
-###GET /version
+### GET /version
 
 Return version of the API. Can be used as a healthcheck.
 
@@ -29,7 +29,7 @@ Example response:
 { "version": 0.1.0 }
 ```
 
-###GET /issues
+### GET /issues
 
 Return list of all issues
 
@@ -61,7 +61,7 @@ Example response:
 }
 ```
 
-###GET /issues/{id}
+### GET /issues/{id}
 
 Return a single issue
 
@@ -83,7 +83,7 @@ Example response:
 }
 ```
 
-###POST /issues/{id}/change_state
+### POST /issues/{id}/change_state
 
 Change state of an existing issue. 
 
